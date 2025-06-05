@@ -1,3 +1,0 @@
-/Users/lazarzivanovic/Desktop/Primal/primal/cmake-build-debug/CMakeFiles/DL_Framework.dir
-/Users/lazarzivanovic/Desktop/Primal/primal/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lazarzivanovic/Desktop/Primal/primal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
