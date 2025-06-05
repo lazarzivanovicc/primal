@@ -1,43 +1,5 @@
 # IDE-specific files
 .idea/             # JetBrains IDEs (CLion, IntelliJ IDEA)
-.vscode/           # VS Code settings (if you use it)
-*.suo              # Visual Studio Solution User Options
-*.user             # Visual Studio User Options
-*.ncb              # Visual Studio Browse database
-*.vspscc           # Visual Studio Source Code Control
-*.vssscc           # Visual Studio Source Code Control
-*.vshost.* # Visual Studio hosting process files
 
 # Build artifacts and generated files
-cmake-build-debug/ # Specific CMake debug build directory
-cmake-build-release/ # Specific CMake release build directory (if you have one)
-build/             # Common directory for compiled output
-bin/               # Common directory for executables
-lib/               # Common directory for libraries
-*.o                # Object files
-*.a                # Static libraries
-*.so               # Shared libraries (Linux)
-*.dll              # Dynamic Link Libraries (Windows)
-*.dylib            # Dynamic Libraries (macOS)
-*.exe              # Executables
-*.obj              # Compiled object files (Windows)
-*.lib              # Static libraries (Windows)
-*.exp              # Export files (Windows)
-*.ilk              # Incremental linker files (Windows)
-*.pdb              # Program Database files (Windows)
-*.ipch             # Precompiled header files (Visual Studio)
-*.pch              # Precompiled header files (GCC/Clang)
-*.log              # Log files
-
-# C++ specific temporary files
-*.gcno             # gcov data files
-*.gcda             # gcov data files
-*.dSYM/            # macOS debug symbol files
-*.DS_Store         # macOS specific hidden files
-Thumbs.db          # Windows specific hidden files
-
-# Dependency management (if you use external dependencies with specific tools)
-# For example, if you're using Conan:
-# conanbuildinfo.cmake
-# conaninfo.txt
-# conan_deps/
+/cmake-build-*/ # Specific CMake debug build directory
