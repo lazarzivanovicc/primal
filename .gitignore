@@ -1,5 +1,5 @@
 # IDE-specific files
-.idea/             # JetBrains IDEs (CLion, IntelliJ IDEA)
+/.idea
 
 # Build artifacts and generated files
-/cmake-build-*/ # Specific CMake debug build directory
+/cmake-build-debug/
