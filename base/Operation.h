@@ -10,17 +10,19 @@
 
 class Operation {
 public:
+    virtual ~Operation() = default;
+    Operation(){};
     Matrix input;
     Matrix output;
     Matrix outputGradient;
     Matrix inputGradient;
-    Matrix forward(const Matrix& input);
-    Matrix backward(const Matrix& outputGradient);
+    Matrix forward(Matrix& input);
+    Matrix backward(Matrix& outputGradient);
 
 protected:
     //These should be implemented in the concrete Operations and are called inside forward and backward
-    virtual Matrix calculateForwardOutput(const Matrix& input) = 0;
-    virtual Matrix calculateInputGrad(const Matrix& outputGradient) = 0;
+    virtual Matrix calculateForwardOutput(Matrix& input) = 0;
+    virtual Matrix calculateInputGrad(Matrix& outputGradient) = 0;
 };
 
 

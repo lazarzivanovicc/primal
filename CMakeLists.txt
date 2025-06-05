@@ -9,4 +9,6 @@ add_executable(DL_Framework main.cpp
         base/OperationWithParams.cpp
         base/OperationWithParams.h
         utils/Matrix.cpp
-        utils/Matrix.h)
+        utils/Matrix.h
+        base/MatrixMultiply.cpp
+        base/MatrixMultiply.h)
