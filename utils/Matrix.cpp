@@ -14,7 +14,7 @@ Matrix Matrix::multiply(Matrix a, Matrix b) {
     for (int i = 0; i < a.getRows(); i++) {
         for (int j = 0; j < b.getCols(); j++) {
             for (int k = 0; k < a.getCols(); k++) {
-                result[i][j] += a.getElem(i, k) * b.getElem(i, k);
+                result[i][j] += a.getElem(i, k) * b.getElem(k, j);
             }
         }
     }
